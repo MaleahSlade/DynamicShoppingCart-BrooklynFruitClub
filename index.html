@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+
+  <title>Dynamic Shopping Cart</title>
+</head>
+
+<body>
+  <main></main>
+  <div id="BFC">
+  <h1><strong>Brooklyn Fruit Club</strong></h1>
+  <h2>Fill your basket with the finest produce</h2>
+
+  <div id="product-container">
+
+    <div class="fruit" id="apple">
+      <p>Red Delicious Apple</p>
+      <img src="./images/apple.png" alt="red apple" width="50px" height="auto">
+      <p>Cost per item:</p>
+      <p class="price">0.75</p>
+      <input type="number" class="product-amount" min="0" max="10" value="0">
+      <button class="add-product">Add to Cart</button>
+    </div>
+
+    <div class="fruit" id="banana">
+        <p>Yellow Cavendish Banana</p>
+        <img src="./images/bananas.png" alt="yellow banana" width="50px" height="auto">
+        <p>Cost per item:</p>
+        <p class="price">1.00</p>
+        <input type="number" class="product-amount" min="0" max="10" value="0">
+        <button class="add-product">Add to Cart</button>
+      </div>
+
+      <div class="fruit" id="coconut">
+        <p>Brown Mature Coconut</p>
+        <img src="./images/coconut.png" alt="open coconut" width="50px" height="auto">
+        <p>Cost per item:</p>
+        <p class="price">3.00</p>
+        <input type="number" class="product-amount" min="0" max="10" value="0">
+        <button class="add-product">Add to Cart</button>
+      </div>
+
+      <div class="fruit" id="grapes">
+        <p>Purple Concord Grape</p>
+        <img src="./images/grapes.png" alt="purple grapes" width="50px" height="auto">
+        <p>Cost per cluster:</p>
+        <p class="price">4.00</p>
+        <input type="number" class="product-amount" min="0" max="10" value="0">
+        <button class="add-product">Add to Cart</button>
+      </div>
+
+      <div class="fruit" id="kiwi">
+        <p>Green Fuzzy Kiwi</p>
+        <img src="./images/kiwi.png" alt="open green kiwi" width="50px" height="auto">
+        <p>Cost per item:</p>
+        <p class="price">0.50</p>
+        <input type="number" class="product-amount" min="0" max="10" value="0">
+        <button class="add-product">Add to Cart</button>
+      </div>
+
+      <div class="fruit" id="mango">
+        <p>Red Haden Mango</p>
+        <img src="./images/mango.png" alt="red and yellow mango" width="50px" height="auto">
+         <p>Cost per item:</p>
+        <p class="price">1.00</p>
+        <input type="number" class="product-amount" min="0" max="10" value="0">
+        <button class="add-product">Add to Cart</button>
+      </div>
+
+    </div>
+    <fieldset>
+    <ul id="cart">
+
+    </ul>
+
+
+    <h3>Total: $<span id="total-price">0</span></h3>
+    </fieldset>
+    
+  </div>
+</main>
+</body>
+
+</html>
